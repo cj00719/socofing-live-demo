@@ -51,7 +51,7 @@ def load_model():
 
     model = tf.keras.models.load_model(
 
-        "best_model.h5",
+        "model_optimized.tflite",
 
         compile=False
     )
